@@ -6,9 +6,9 @@ export default function SideBar() {
     return (
         <Container fluid>
             <div className="sidebar">
-                <a className="active" onClick={()=>navigate("/Dashboard")}>Dashboard</a>
-                <a onClick={()=>navigate("/Departments")} >Departments</a>
-                <a >Products</a>
+                <a className="active" onClick={() => navigate("/Dashboard")}>Dashboard</a>
+                <a onClick={() => navigate("/Departments")} >Departments</a>
+                <a onClick={() => navigate("/Products")}  >Products</a>
             </div>
         </Container>
     )
