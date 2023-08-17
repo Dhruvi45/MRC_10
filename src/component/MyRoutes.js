@@ -12,6 +12,7 @@ export default function MyRoutes() {
                 <Route path="/Dashboard" element={<Layout><InventoryDashboard /></Layout>} />
                 <Route path="/Departments" element={<Layout><Departments /></Layout>} />
                 <Route path="/Products" element={<Layout><ProductList /></Layout>} />
+                <Route path="/Products/:department" element={<Layout><ProductList /></Layout>} />
 
             </Routes>
         </>
